@@ -5,7 +5,7 @@ body {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 50px;
   margin-top: 0;
   margin-bottom: 15px;
 }
@@ -16,7 +16,7 @@ h1, h2, h3, p {
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 40px;
 }
 
 .perfil {
@@ -44,15 +44,7 @@ hr {
   height: 2px;
   background-color: brown;
   border-color: brown;
-}
-
-
-/*
-
-hr {
-  height: 2px;
-  background-color: brown;
-  border-color: brown;
+  margin-top: 25px;
 }
 
 .bottom-line {
@@ -67,20 +59,24 @@ h1, h2 {
   display: inline-block;
   margin-top: 5px;
   margin-bottom: 5px;
-  font-size: 18px;
+  font-size: 16px;
 }
 
-.flavor, .dessert {
+.Album {
   text-align: left;
-  width: 75%;
+  width: 60%;
 }
 
-.price {
+.Artista {
   text-align: right;
-  width: 25%;
+  width: 40%;
 }
 
-/* FOOTER */
+/*FOOTER*/
+
+footer {
+  font-size: 14px;
+}
 
 footer {
   font-size: 14px;
@@ -104,4 +100,5 @@ a:hover {
 
 a:active {
   color: brown;
-}*/
+}
+
